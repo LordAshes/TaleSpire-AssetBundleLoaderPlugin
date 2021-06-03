@@ -50,7 +50,7 @@ public class AssetBundleExamplePlugin : BaseUnityPlugin
 		 ...
 		 
 		 // Load an Asset Bundle not specified in the Asset Bundle JSO Manifest file
-		 LordAshes.AssetBundleLoaderPlugin.LoadAssetBundle("Dragon", "D:/Steam/steamapps/common/TaleSpire/TaleSpire_CustomData/Minis/dragon/char_dragon_0000000001");
+		 LordAshes.AssetBundleLoaderPlugin..LoadAssetBundleNotInManifest("Dragon", "D:/Steam/steamapps/common/TaleSpire/TaleSpire_CustomData/Minis/dragon/char_dragon_0000000001");
 		 
 		 ...
 		 
